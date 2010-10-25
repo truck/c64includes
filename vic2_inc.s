@@ -27,6 +27,7 @@
 	SPR2XPV = $D017		; 53271/VIC+23       Sprites Expand 2x Vertical (Y)
 	MEMCTL = $D018		; 53272/VIC+24       Memory Control Register
 	VICIRR = $D019		; 53273/VIC+25       Interrupt Request Register (IRR)
+	INTREQ = $D019		; - I always call it intreq anyway
 	VICIMR = $D01A		; 53274/VIC+26       Interrupt Mask Register (IMR)
 	SPRBKG = $D01B		; 53275/VIC+27       Sprite to Background Display Priority
 	SPRMCM = $D01C		; 53276/VIC+28       Sprites Multi-Color Mode Select
